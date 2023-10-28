@@ -155,5 +155,8 @@
   <ItemGroup>
     <None Include="Resources\person_add_FILL0_wght400_GRAD0_opsz24.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="QLSV2.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

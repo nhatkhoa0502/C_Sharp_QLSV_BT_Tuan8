@@ -16,5 +16,32 @@ namespace BT_QLSV_Tuan8
         {
             InitializeComponent();
         }
+
+        private void monBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.monBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.qLSV2DataSet);
+
+        }
+
+        private void DanhMucMonHoc_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'qLSV2DataSet.Mon' table. You can move, or remove it, as needed.
+            this.monTableAdapter.Fill(this.qLSV2DataSet.Mon);
+            // TODO: This line of code loads data into the 'qLSV2DataSet.SinhVien' table. You can move, or remove it, as needed.
+            this.sinhVienTableAdapter.Fill(this.qLSV2DataSet.SinhVien);
+            // TODO: This line of code loads data into the 'qLSV2DataSet.Mon' table. You can move, or remove it, as needed.
+            this.monTableAdapter.Fill(this.qLSV2DataSet.Mon);
+
+        }
+
+        private void monBindingNavigatorSaveItem_Click_1(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.monBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.qLSV2DataSet);
+
+        }
     }
 }
