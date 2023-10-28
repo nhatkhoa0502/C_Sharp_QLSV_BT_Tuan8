@@ -1,0 +1,12 @@
+C:\Users\ACER\Documents\C#\Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\bin\Debug\BT_QLSV_Tuan8.exe.config
+C:\Users\ACER\Documents\C#\Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\bin\Debug\BT_QLSV_Tuan8.exe
+C:\Users\ACER\Documents\C#\Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\bin\Debug\BT_QLSV_Tuan8.pdb
+C:\Users\ACER\Documents\C#\Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\obj\Debug\BT_QLSV_Tuan8.csproj.AssemblyReference.cache
+C:\Users\ACER\Documents\C#\Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\obj\Debug\BT_QLSV_Tuan8.Properties.Resources.resources
+C:\Users\ACER\Documents\C#\Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\obj\Debug\BT_QLSV_Tuan8.csproj.GenerateResource.cache
+C:\Users\ACER\Documents\C#\Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\obj\Debug\BT_QLSV_Tuan8.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\C#\Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\obj\Debug\BT_QLSV_Tuan8.exe
+C:\Users\ACER\Documents\C#\Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\obj\Debug\BT_QLSV_Tuan8.pdb
+C:\Users\ACER\Documents\C#\Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\obj\Debug\BT_QLSV_Tuan8.QLSV_Main.resources
+C:\Users\ACER\Documents\C#\Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\obj\Debug\BT_QLSV_Tuan8.NhapDiem.resources
+C:\Users\ACER\Documents\C#\Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\BT_QLSV_Tuan8\obj\Debug\BT_QLSV_Tuan8.XemDiem.resources
