@@ -22,7 +22,7 @@ namespace BT_QLSV_Tuan8 {
     [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedDataSetSchema")]
     [global::System.Xml.Serialization.XmlRootAttribute("QLSV2DataSet")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.DataSet")]
-    public partial class QLSV2DataSet : global::System.Data.DataSet {
+    public partial class QLSVDataSet : global::System.Data.DataSet {
         
         private KetQuaDataTable tableKetQua;
         
@@ -42,7 +42,7 @@ namespace BT_QLSV_Tuan8 {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public QLSV2DataSet() {
+        public QLSVDataSet() {
             this.BeginInit();
             this.InitClass();
             global::System.ComponentModel.CollectionChangeEventHandler schemaChangedHandler = new global::System.ComponentModel.CollectionChangeEventHandler(this.SchemaChanged);
@@ -53,7 +53,7 @@ namespace BT_QLSV_Tuan8 {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        protected QLSV2DataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+        protected QLSVDataSet(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                 base(info, context, false) {
             if ((this.IsBinarySerialized(info, context) == true)) {
                 this.InitVars(false);
@@ -178,7 +178,7 @@ namespace BT_QLSV_Tuan8 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public override global::System.Data.DataSet Clone() {
-            QLSV2DataSet cln = ((QLSV2DataSet)(base.Clone()));
+            QLSVDataSet cln = ((QLSVDataSet)(base.Clone()));
             cln.InitVars();
             cln.SchemaSerializationMode = this.SchemaSerializationMode;
             return cln;
@@ -342,7 +342,7 @@ namespace BT_QLSV_Tuan8 {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedDataSetSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
-            QLSV2DataSet ds = new QLSV2DataSet();
+            QLSVDataSet ds = new QLSVDataSet();
             global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
             global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
             global::System.Xml.Schema.XmlSchemaAny any = new global::System.Xml.Schema.XmlSchemaAny();
@@ -634,7 +634,7 @@ namespace BT_QLSV_Tuan8 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QLSV2DataSet ds = new QLSV2DataSet();
+                QLSVDataSet ds = new QLSVDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -909,7 +909,7 @@ namespace BT_QLSV_Tuan8 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QLSV2DataSet ds = new QLSV2DataSet();
+                QLSVDataSet ds = new QLSVDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1199,7 +1199,7 @@ namespace BT_QLSV_Tuan8 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QLSV2DataSet ds = new QLSV2DataSet();
+                QLSVDataSet ds = new QLSVDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -1553,7 +1553,7 @@ namespace BT_QLSV_Tuan8 {
             public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
                 global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
                 global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
-                QLSV2DataSet ds = new QLSV2DataSet();
+                QLSVDataSet ds = new QLSVDataSet();
                 global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
                 any1.Namespace = "http://www.w3.org/2001/XMLSchema";
                 any1.MinOccurs = new decimal(0);
@@ -2238,7 +2238,7 @@ SELECT MaSo, MaMH, Diem FROM KetQua WHERE (MaMH = @MaMH) AND (MaSo = @MaSo)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QLSV2DataSet.KetQuaDataTable dataTable) {
+        public virtual int Fill(QLSVDataSet.KetQuaDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -2251,9 +2251,9 @@ SELECT MaSo, MaMH, Diem FROM KetQua WHERE (MaMH = @MaMH) AND (MaSo = @MaSo)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QLSV2DataSet.KetQuaDataTable GetData() {
+        public virtual QLSVDataSet.KetQuaDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QLSV2DataSet.KetQuaDataTable dataTable = new QLSV2DataSet.KetQuaDataTable();
+            QLSVDataSet.KetQuaDataTable dataTable = new QLSVDataSet.KetQuaDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -2261,14 +2261,14 @@ SELECT MaSo, MaMH, Diem FROM KetQua WHERE (MaMH = @MaMH) AND (MaSo = @MaSo)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QLSV2DataSet.KetQuaDataTable dataTable) {
+        public virtual int Update(QLSVDataSet.KetQuaDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QLSV2DataSet dataSet) {
+        public virtual int Update(QLSVDataSet dataSet) {
             return this.Adapter.Update(dataSet, "KetQua");
         }
         
@@ -2586,7 +2586,7 @@ SELECT MaSo, MaMH, Diem FROM KetQua WHERE (MaMH = @MaMH) AND (MaSo = @MaSo)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QLSV2DataSet.KhoaDataTable dataTable) {
+        public virtual int Fill(QLSVDataSet.KhoaDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -2599,9 +2599,9 @@ SELECT MaSo, MaMH, Diem FROM KetQua WHERE (MaMH = @MaMH) AND (MaSo = @MaSo)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QLSV2DataSet.KhoaDataTable GetData() {
+        public virtual QLSVDataSet.KhoaDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QLSV2DataSet.KhoaDataTable dataTable = new QLSV2DataSet.KhoaDataTable();
+            QLSVDataSet.KhoaDataTable dataTable = new QLSVDataSet.KhoaDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -2609,14 +2609,14 @@ SELECT MaSo, MaMH, Diem FROM KetQua WHERE (MaMH = @MaMH) AND (MaSo = @MaSo)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QLSV2DataSet.KhoaDataTable dataTable) {
+        public virtual int Update(QLSVDataSet.KhoaDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QLSV2DataSet dataSet) {
+        public virtual int Update(QLSVDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Khoa");
         }
         
@@ -2931,7 +2931,7 @@ SELECT MaSo, MaMH, Diem FROM KetQua WHERE (MaMH = @MaMH) AND (MaSo = @MaSo)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QLSV2DataSet.MonDataTable dataTable) {
+        public virtual int Fill(QLSVDataSet.MonDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -2944,9 +2944,9 @@ SELECT MaSo, MaMH, Diem FROM KetQua WHERE (MaMH = @MaMH) AND (MaSo = @MaSo)";
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QLSV2DataSet.MonDataTable GetData() {
+        public virtual QLSVDataSet.MonDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QLSV2DataSet.MonDataTable dataTable = new QLSV2DataSet.MonDataTable();
+            QLSVDataSet.MonDataTable dataTable = new QLSVDataSet.MonDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -2954,14 +2954,14 @@ SELECT MaSo, MaMH, Diem FROM KetQua WHERE (MaMH = @MaMH) AND (MaSo = @MaSo)";
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QLSV2DataSet.MonDataTable dataTable) {
+        public virtual int Update(QLSVDataSet.MonDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QLSV2DataSet dataSet) {
+        public virtual int Update(QLSVDataSet dataSet) {
             return this.Adapter.Update(dataSet, "Mon");
         }
         
@@ -3299,7 +3299,7 @@ SELECT MaSo, HoTen, NgaySinh, GioiTinh, DiaChi, DienThoai, MaKhoa FROM SinhVien 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(QLSV2DataSet.SinhVienDataTable dataTable) {
+        public virtual int Fill(QLSVDataSet.SinhVienDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -3312,9 +3312,9 @@ SELECT MaSo, HoTen, NgaySinh, GioiTinh, DiaChi, DienThoai, MaKhoa FROM SinhVien 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual QLSV2DataSet.SinhVienDataTable GetData() {
+        public virtual QLSVDataSet.SinhVienDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            QLSV2DataSet.SinhVienDataTable dataTable = new QLSV2DataSet.SinhVienDataTable();
+            QLSVDataSet.SinhVienDataTable dataTable = new QLSVDataSet.SinhVienDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -3322,14 +3322,14 @@ SELECT MaSo, HoTen, NgaySinh, GioiTinh, DiaChi, DienThoai, MaKhoa FROM SinhVien 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QLSV2DataSet.SinhVienDataTable dataTable) {
+        public virtual int Update(QLSVDataSet.SinhVienDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(QLSV2DataSet dataSet) {
+        public virtual int Update(QLSVDataSet dataSet) {
             return this.Adapter.Update(dataSet, "SinhVien");
         }
         
@@ -3668,7 +3668,7 @@ SELECT MaSo, HoTen, NgaySinh, GioiTinh, DiaChi, DienThoai, MaKhoa FROM SinhVien 
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateUpdatedRows(QLSV2DataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateUpdatedRows(QLSVDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._khoaTableAdapter != null)) {
                 global::System.Data.DataRow[] updatedRows = dataSet.Khoa.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
@@ -3714,7 +3714,7 @@ SELECT MaSo, HoTen, NgaySinh, GioiTinh, DiaChi, DienThoai, MaKhoa FROM SinhVien 
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateInsertedRows(QLSV2DataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
+        private int UpdateInsertedRows(QLSVDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allAddedRows) {
             int result = 0;
             if ((this._khoaTableAdapter != null)) {
                 global::System.Data.DataRow[] addedRows = dataSet.Khoa.Select(null, null, global::System.Data.DataViewRowState.Added);
@@ -3756,7 +3756,7 @@ SELECT MaSo, HoTen, NgaySinh, GioiTinh, DiaChi, DienThoai, MaKhoa FROM SinhVien 
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        private int UpdateDeletedRows(QLSV2DataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
+        private int UpdateDeletedRows(QLSVDataSet dataSet, global::System.Collections.Generic.List<global::System.Data.DataRow> allChangedRows) {
             int result = 0;
             if ((this._ketQuaTableAdapter != null)) {
                 global::System.Data.DataRow[] deletedRows = dataSet.KetQua.Select(null, null, global::System.Data.DataViewRowState.Deleted);
@@ -3822,7 +3822,7 @@ SELECT MaSo, HoTen, NgaySinh, GioiTinh, DiaChi, DienThoai, MaKhoa FROM SinhVien 
         ///</summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-        public virtual int UpdateAll(QLSV2DataSet dataSet) {
+        public virtual int UpdateAll(QLSVDataSet dataSet) {
             if ((dataSet == null)) {
                 throw new global::System.ArgumentNullException("dataSet");
             }

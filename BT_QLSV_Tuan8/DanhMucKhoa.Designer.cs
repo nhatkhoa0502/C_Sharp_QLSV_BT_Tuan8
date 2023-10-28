@@ -32,7 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DanhMucKhoa));
             System.Windows.Forms.Label maKhoaLabel;
             System.Windows.Forms.Label tenKhoaLabel;
-            this.qLSV2DataSet = new BT_QLSV_Tuan8.QLSV2DataSet();
+            this.qLSV2DataSet = new BT_QLSV_Tuan8.QLSVDataSet();
             this.khoaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.khoaTableAdapter = new BT_QLSV_Tuan8.QLSV2DataSetTableAdapters.KhoaTableAdapter();
             this.tableAdapterManager = new BT_QLSV_Tuan8.QLSV2DataSetTableAdapters.TableAdapterManager();
@@ -303,7 +303,7 @@
 
         #endregion
 
-        private QLSV2DataSet qLSV2DataSet;
+        private QLSVDataSet qLSV2DataSet;
         private System.Windows.Forms.BindingSource khoaBindingSource;
         private QLSV2DataSetTableAdapters.KhoaTableAdapter khoaTableAdapter;
         private QLSV2DataSetTableAdapters.TableAdapterManager tableAdapterManager;

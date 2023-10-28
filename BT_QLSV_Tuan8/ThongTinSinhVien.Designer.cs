@@ -37,7 +37,7 @@
             System.Windows.Forms.Label diaChiLabel;
             System.Windows.Forms.Label dienThoaiLabel;
             System.Windows.Forms.Label maKhoaLabel;
-            this.qLSV2DataSet = new BT_QLSV_Tuan8.QLSV2DataSet();
+            this.qLSV2DataSet = new BT_QLSV_Tuan8.QLSVDataSet();
             this.sinhVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.sinhVienTableAdapter = new BT_QLSV_Tuan8.QLSV2DataSetTableAdapters.SinhVienTableAdapter();
             this.tableAdapterManager = new BT_QLSV_Tuan8.QLSV2DataSetTableAdapters.TableAdapterManager();
@@ -465,7 +465,7 @@
 
         #endregion
 
-        private QLSV2DataSet qLSV2DataSet;
+        private QLSVDataSet qLSV2DataSet;
         private System.Windows.Forms.BindingSource sinhVienBindingSource;
         private QLSV2DataSetTableAdapters.SinhVienTableAdapter sinhVienTableAdapter;
         private QLSV2DataSetTableAdapters.TableAdapterManager tableAdapterManager;

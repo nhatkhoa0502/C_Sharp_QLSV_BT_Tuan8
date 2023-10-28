@@ -33,7 +33,7 @@
             System.Windows.Forms.Label maMHLabel;
             System.Windows.Forms.Label tenMHLabel;
             System.Windows.Forms.Label soTietLabel;
-            this.qLSV2DataSet = new BT_QLSV_Tuan8.QLSV2DataSet();
+            this.qLSV2DataSet = new BT_QLSV_Tuan8.QLSVDataSet();
             this.monBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.monTableAdapter = new BT_QLSV_Tuan8.QLSV2DataSetTableAdapters.MonTableAdapter();
             this.tableAdapterManager = new BT_QLSV_Tuan8.QLSV2DataSetTableAdapters.TableAdapterManager();
@@ -335,7 +335,7 @@
 
         #endregion
 
-        private QLSV2DataSet qLSV2DataSet;
+        private QLSVDataSet qLSV2DataSet;
         private System.Windows.Forms.BindingSource monBindingSource;
         private QLSV2DataSetTableAdapters.MonTableAdapter monTableAdapter;
         private QLSV2DataSetTableAdapters.TableAdapterManager tableAdapterManager;
